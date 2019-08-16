@@ -17,7 +17,7 @@ public class GameScreen implements Screen {
     public void show() {
         batch = new SpriteBatch();
         playerTexture = new Texture(Gdx.files.internal("animations/anim_woodcutter_stand/anim_woodcutter_stand.png"));
-        player = new Player(playerTexture, 0,0, 267, 200);
+        player = new Player(playerTexture, 130,150, 267, 200);
     }
 
     @Override
